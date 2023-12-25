@@ -9,6 +9,7 @@ bool isValid(const wstring& s)
     for(auto c:s)
         if (!iswalpha(c) || !iswupper(c))
             return false;
+    return true;
 }
 int main(int argc, char **argv)
 {
